@@ -29,7 +29,7 @@
 }
 
 body {
-    background-image: url(/imagens/fundo.jpg);
+    background-image: url(../imagens/fundo.jpg);
     background-repeat: no-repeat;
     display: grid;
     grid-template-rows: auto 90vh auto;
