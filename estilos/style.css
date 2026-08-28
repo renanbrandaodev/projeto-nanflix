@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, sans-serif
+}
+
+@font-face {
+    font-family: 'Netflix Sans' ;
+    src: url(../fontes/Netflix\ Sans\ Light.otf) format(opentype);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url(../fontes/Netflix\ Sans\ Bold.otf) format(opentype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url(../fontes/Netflix\ Sans\ Medium.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(/imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: auto 90vh auto;
+    min-height: 100vh;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nanflix {
+    font-family: Netflix Sans;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+}
+
+.entrar {
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.entrar a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.primeira {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+    text-align: center;
+    line-height: 2.2em;
+    padding: 15px;
+    margin-top: 20px;
+
+   
+}
