@@ -29,12 +29,17 @@
 }
 
 body {
-    background-image: url(../imagens/fundo.jpg);
-    background-repeat: no-repeat;
+    background-color: black;
     display: grid;
     grid-template-rows: auto 90vh auto;
     min-height: 100vh;
     color: white;
+}
+
+.principal {
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    
 }
 
 .container1 {
