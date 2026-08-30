@@ -37,33 +37,43 @@ body {
 }
 
 .principal {
-    background-image: url(../imagens/fundo.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagens/fundo.jpg);
     background-size: cover;
     
 }
 
 .container1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 15px;
 }
 
 .idioma {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     position: relative;
-}
-
-#idioma {
-    padding-left: 36px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0 8px;
+   
 }
 
 .icone {
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 18px;
-    height: 18px;
+    color: white;
+    margin-right: 8px;
+    pointer-events: none;
+}
+
+#idioma {
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+#idioma option {
+    color: black;
+    background-color:rgba(0, 0, 0, 0.137);
 }
 
 
